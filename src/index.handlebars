@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<meta charset="utf-8">
+<title>RealTimeEditor</title>
+<style>
+#comment-box {
+  position: absolute;
+  top: 24px;
+  right: 24px;
+  bottom: 24px;
+  left: 24px;
+}
+#pad {
+  padding: 4px 7px;
+  height: 30%;
+  width: 40%;
+}
+body {
+  background: #ddd;
+}
+</style>
+<div id="comment-box">
+    <h1>Real Time Editor</h1>
+    <h3>Never loose your data while typing...</h3>
+    <textarea id="pad" autofocus>{{text}}</textarea>
+</div>
+
+<script async src="/script.js" data-bundle='{{{bundle}}}'></script>
