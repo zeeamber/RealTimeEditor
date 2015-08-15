@@ -4,7 +4,7 @@
   "private": true,
   "repository": {
     "type": "git",
-    "url": "git://github.com/zeeamber/*****"
+    "url": "git://github.com/zeeamber/RealTimeEditor"
   },
   "dependencies": {
     "express": "~4.12.4",
